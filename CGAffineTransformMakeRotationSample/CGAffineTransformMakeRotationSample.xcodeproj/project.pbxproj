@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		608A070F171C1DB3008B4044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608A070E171C1DB3008B4044 /* UIKit.framework */; };
+		608A0711171C1DB3008B4044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608A0710171C1DB3008B4044 /* Foundation.framework */; };
+		608A0713171C1DB3008B4044 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608A0712171C1DB3008B4044 /* CoreGraphics.framework */; };
+		608A0719171C1DB3008B4044 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 608A0717171C1DB3008B4044 /* InfoPlist.strings */; };
+		608A071B171C1DB3008B4044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 608A071A171C1DB3008B4044 /* main.m */; };
+		608A071F171C1DB3008B4044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 608A071E171C1DB3008B4044 /* AppDelegate.m */; };
+		608A0721171C1DB3008B4044 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 608A0720171C1DB3008B4044 /* Default.png */; };
+		608A0723171C1DB3008B4044 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 608A0722171C1DB3008B4044 /* Default@2x.png */; };
+		608A0725171C1DB3008B4044 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 608A0724171C1DB3008B4044 /* Default-568h@2x.png */; };
+		608A0728171C1DB3008B4044 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608A0726171C1DB3008B4044 /* MainStoryboard_iPhone.storyboard */; };
+		608A072B171C1DB3008B4044 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608A0729171C1DB3008B4044 /* MainStoryboard_iPad.storyboard */; };
+		608A072E171C1DB3008B4044 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608A072D171C1DB3008B4044 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		608A070B171C1DB3008B4044 /* CGAffineTransformMakeRotationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGAffineTransformMakeRotationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		608A070E171C1DB3008B4044 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		608A0710171C1DB3008B4044 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		608A0712171C1DB3008B4044 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		608A0716171C1DB3008B4044 /* CGAffineTransformMakeRotationSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGAffineTransformMakeRotationSample-Info.plist"; sourceTree = "<group>"; };
+		608A0718171C1DB3008B4044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		608A071A171C1DB3008B4044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		608A071C171C1DB3008B4044 /* CGAffineTransformMakeRotationSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGAffineTransformMakeRotationSample-Prefix.pch"; sourceTree = "<group>"; };
+		608A071D171C1DB3008B4044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		608A071E171C1DB3008B4044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		608A0720171C1DB3008B4044 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		608A0722171C1DB3008B4044 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		608A0724171C1DB3008B4044 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		608A0727171C1DB3008B4044 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		608A072A171C1DB3008B4044 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		608A072C171C1DB3008B4044 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		608A072D171C1DB3008B4044 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		608A0708171C1DB3008B4044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608A070F171C1DB3008B4044 /* UIKit.framework in Frameworks */,
+				608A0711171C1DB3008B4044 /* Foundation.framework in Frameworks */,
+				608A0713171C1DB3008B4044 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		608A0702171C1DB3008B4044 = {
+			isa = PBXGroup;
+			children = (
+				608A0714171C1DB3008B4044 /* CGAffineTransformMakeRotationSample */,
+				608A070D171C1DB3008B4044 /* Frameworks */,
+				608A070C171C1DB3008B4044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		608A070C171C1DB3008B4044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				608A070B171C1DB3008B4044 /* CGAffineTransformMakeRotationSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		608A070D171C1DB3008B4044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				608A070E171C1DB3008B4044 /* UIKit.framework */,
+				608A0710171C1DB3008B4044 /* Foundation.framework */,
+				608A0712171C1DB3008B4044 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		608A0714171C1DB3008B4044 /* CGAffineTransformMakeRotationSample */ = {
+			isa = PBXGroup;
+			children = (
+				608A071D171C1DB3008B4044 /* AppDelegate.h */,
+				608A071E171C1DB3008B4044 /* AppDelegate.m */,
+				608A0726171C1DB3008B4044 /* MainStoryboard_iPhone.storyboard */,
+				608A0729171C1DB3008B4044 /* MainStoryboard_iPad.storyboard */,
+				608A072C171C1DB3008B4044 /* ViewController.h */,
+				608A072D171C1DB3008B4044 /* ViewController.m */,
+				608A0715171C1DB3008B4044 /* Supporting Files */,
+			);
+			path = CGAffineTransformMakeRotationSample;
+			sourceTree = "<group>";
+		};
+		608A0715171C1DB3008B4044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				608A0716171C1DB3008B4044 /* CGAffineTransformMakeRotationSample-Info.plist */,
+				608A0717171C1DB3008B4044 /* InfoPlist.strings */,
+				608A071A171C1DB3008B4044 /* main.m */,
+				608A071C171C1DB3008B4044 /* CGAffineTransformMakeRotationSample-Prefix.pch */,
+				608A0720171C1DB3008B4044 /* Default.png */,
+				608A0722171C1DB3008B4044 /* Default@2x.png */,
+				608A0724171C1DB3008B4044 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		608A070A171C1DB3008B4044 /* CGAffineTransformMakeRotationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608A0731171C1DB3008B4044 /* Build configuration list for PBXNativeTarget "CGAffineTransformMakeRotationSample" */;
+			buildPhases = (
+				608A0707171C1DB3008B4044 /* Sources */,
+				608A0708171C1DB3008B4044 /* Frameworks */,
+				608A0709171C1DB3008B4044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGAffineTransformMakeRotationSample;
+			productName = CGAffineTransformMakeRotationSample;
+			productReference = 608A070B171C1DB3008B4044 /* CGAffineTransformMakeRotationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		608A0703171C1DB3008B4044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dolice;
+			};
+			buildConfigurationList = 608A0706171C1DB3008B4044 /* Build configuration list for PBXProject "CGAffineTransformMakeRotationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 608A0702171C1DB3008B4044;
+			productRefGroup = 608A070C171C1DB3008B4044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				608A070A171C1DB3008B4044 /* CGAffineTransformMakeRotationSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		608A0709171C1DB3008B4044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608A0719171C1DB3008B4044 /* InfoPlist.strings in Resources */,
+				608A0721171C1DB3008B4044 /* Default.png in Resources */,
+				608A0723171C1DB3008B4044 /* Default@2x.png in Resources */,
+				608A0725171C1DB3008B4044 /* Default-568h@2x.png in Resources */,
+				608A0728171C1DB3008B4044 /* MainStoryboard_iPhone.storyboard in Resources */,
+				608A072B171C1DB3008B4044 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		608A0707171C1DB3008B4044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608A071B171C1DB3008B4044 /* main.m in Sources */,
+				608A071F171C1DB3008B4044 /* AppDelegate.m in Sources */,
+				608A072E171C1DB3008B4044 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		608A0717171C1DB3008B4044 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608A0718171C1DB3008B4044 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		608A0726171C1DB3008B4044 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608A0727171C1DB3008B4044 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		608A0729171C1DB3008B4044 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608A072A171C1DB3008B4044 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		608A072F171C1DB3008B4044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		608A0730171C1DB3008B4044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		608A0732171C1DB3008B4044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGAffineTransformMakeRotationSample/CGAffineTransformMakeRotationSample-Prefix.pch";
+				INFOPLIST_FILE = "CGAffineTransformMakeRotationSample/CGAffineTransformMakeRotationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		608A0733171C1DB3008B4044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGAffineTransformMakeRotationSample/CGAffineTransformMakeRotationSample-Prefix.pch";
+				INFOPLIST_FILE = "CGAffineTransformMakeRotationSample/CGAffineTransformMakeRotationSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		608A0706171C1DB3008B4044 /* Build configuration list for PBXProject "CGAffineTransformMakeRotationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608A072F171C1DB3008B4044 /* Debug */,
+				608A0730171C1DB3008B4044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		608A0731171C1DB3008B4044 /* Build configuration list for PBXNativeTarget "CGAffineTransformMakeRotationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608A0732171C1DB3008B4044 /* Debug */,
+				608A0733171C1DB3008B4044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 608A0703171C1DB3008B4044 /* Project object */;
+}
